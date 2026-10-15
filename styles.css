@@ -1,0 +1,42 @@
+/* Class 11: Step 4: the basics */
+
+:root {
+    --text: #25233A;
+    --text-muted: #66647A;
+    --accent: #6554C0;
+    --background: #F8F7FC;
+    --border: #e5e7eb;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text);
+    background: var(--background);
+    line-height: 1.6;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+
+header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    margin-top: 4rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
