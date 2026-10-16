@@ -19,7 +19,8 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;           /* Class 12: Step 2: my own scale */
+    line-height: 1.1;
     margin-bottom: 0.25rem;
 }
 
@@ -30,9 +31,17 @@ header p {
 }
 
 h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
     margin-top: 2.5rem;
     border-bottom: 1px solid var(--border);
     padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -49,3 +58,22 @@ a {
 }
 
 a:hover {border-bottom-color: var(--accent);}
+
+.portrait {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+ul {
+    padding-left: 1.25rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
