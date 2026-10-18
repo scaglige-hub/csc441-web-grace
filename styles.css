@@ -44,10 +44,13 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Lab 12: Task 3: footer*/
 footer {
-    margin-top: 4rem;
-    color: var(--text-muted);
-    font-size: 0.9rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Lab 11: Task 4: links */
@@ -71,9 +74,21 @@ section {
 }
 
 ul {
-    padding-left: 1.25rem;
+    list-style: none;
+    padding-left: 0;
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--accent);
 }
+
+/* Lab 12: Task 1: header side by side */
+header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header { flex-wrap:wrap; }
