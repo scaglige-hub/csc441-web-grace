@@ -19,7 +19,8 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;           /* Class 12: Step 2: my own scale */
+    line-height: 1.1;
     margin-bottom: 0.25rem;
 }
 
@@ -30,13 +31,64 @@ header p {
 }
 
 h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
     margin-top: 2.5rem;
     border-bottom: 1px solid var(--border);
     padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-footer {
-    margin-top: 4rem;
-    color: var(--text-muted);
-    font-size: 0.9rem;
+p {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
 }
+
+/* Lab 12: Task 3: footer*/
+footer {
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lab 11: Task 4: links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {border-bottom-color: var(--accent);}
+
+.portrait {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--accent);
+}
+
+/* Lab 12: Task 1: header side by side */
+header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header { flex-wrap:wrap; }
