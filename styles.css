@@ -92,3 +92,15 @@ header {
 }
 
 header { flex-wrap:wrap; }
+
+/* Class 13: Step 3: the nav bar */
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    border-bottom-color: var(--accent);
+}
