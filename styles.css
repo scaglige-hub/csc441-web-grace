@@ -45,12 +45,21 @@ p {
 }
 
 /* Lab 12: Task 3: footer*/
+/* Lab 14: Task 4: footer stacks on narrow screens */
 footer {
-    border-top: 1px solid var(--border);
-    padding-top: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.5rem;
     align-items: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+@media (min-width: 40rem) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /* Lab 11: Task 4: links */
@@ -91,8 +100,6 @@ header {
     gap: 1.5rem;
 }
 
-header { flex-wrap:wrap; }
-
 /* Class 13: Step 3: the nav bar */
 nav a {
     text-decoration: none;
@@ -123,12 +130,12 @@ nav {
 /* Class 14: Step 3: stack by default */
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
 
 .card {
-    flex: 1;
+    flex: 1 1 18rem;
     padding: 1.5rem;
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -139,4 +146,32 @@ nav {
     .cards {
         flex-direction: row;
     }
+}
+
+/* Lab 14: Task 1: the nav stacks on narrow screens */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 40rem) {
+    nav ul {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+/* Lab 14: Task 5: break your own page */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    flex-wrap: wrap;
 }
