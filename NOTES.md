@@ -19,3 +19,10 @@ On a phone, the header might become too wide due to the photo size. I fixed it b
 3. justify-content aligns items horizontally while align-items aligns items vertically.
 
 4. The media query takes over when the screen has a wide width, so the plain rules must be default for the narrow layout. 
+
+## Week 10, Wednesday
+1. In your own words, what is the difference between HTML, CSS and JavaScript?
+2. What does defer do on the script tag, and what breaks without it?
+3. Dark mode changed your whole site with five lines of CSS. Why did that work? What would you have had to do without variables?
+4. Something that went wrong this week and the Console said nothing at all. What was it, and how did you eventually find it?
+5. What is one thing on your page that you don't know how to chang yet?
