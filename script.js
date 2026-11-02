@@ -1,4 +1,3 @@
-scripts.js
 // Class 15: Step 1: this file is running
 console.log("script.js is running");
 
@@ -41,17 +40,43 @@ if (projectCount) {
 // Class 16: Step 4: handle the submit
 const contactForm = document.querySelector("#contact-form");
 
-// Class 16: Step 4: handle the submit
 if (contactForm) {
     const formStatus = document.querySelector("#form-status");
 
+    // Lab 16: Task 1: my own check before accepting it
     contactForm.addEventListener("submit", function (event) {
-    event.preventDefault();
+        event.preventDefault();
 
-    const name = document.querySelector("#name").value;
+        const name = document.querySelector("#name").value.trim();
+        const message = document.querySelector("#message").value.trim();
 
-    formStatus.textContent = "Thanks, " + name + "! Your message has been sent.";
-    contactForm.reset();
-});
+        if (message.length < 10) {
+            formStatus.textContent = "Please write a bit more, at least 10 characters.";
+            formStatus.classList.add("error");
+            return;
+        }
+
+        formStatus.classList.remove("error");
+        formStatus.textContent = "Thanks, " + name + ". Your message is ready to send.";
+        contactForm.reset();
+
+
+    });
+
+    // Lab 16 · Task 2: clear the error once they start fixing it
+    contactForm.addEventListener("input", function () {
+        if (formStatus.classList.contains("error")) {
+            formStatus.textContent = "";
+            formStatus.classList.remove("error");
+        }
+    });
+
+    // Lab 16: Task 4: one thing of your own
+    const characterCount = document.querySelector("#characters");
+    message.addEventListener("input", function () {
+        characterCount.textContent = message.value.length;
+    });
+
+    
 }
 
