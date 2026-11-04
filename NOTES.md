@@ -21,8 +21,19 @@ On a phone, the header might become too wide due to the photo size. I fixed it b
 4. The media query takes over when the screen has a wide width, so the plain rules must be default for the narrow layout. 
 
 ## Week 10, Wednesday
-1. In your own words, what is the difference between HTML, CSS and JavaScript?
-2. What does defer do on the script tag, and what breaks without it?
-3. Dark mode changed your whole site with five lines of CSS. Why did that work? What would you have had to do without variables?
-4. Something that went wrong this week and the Console said nothing at all. What was it, and how did you eventually find it?
-5. What is one thing on your page that you don't know how to chang yet?
+1. HTML codes the structure of a website, CSS programs the design on the website, and JavaScript is what makes the website more interactive. 
+2. Certain elements might break without the defer addition to the script tag. 
+3. Variables allowed me to change all of my colors using just a few simple values. If I did not have these variables, I would have probably have to had manually change all of the colors. 
+4. When I was coding one part of the lab, I messed up my indentation, and the part I was coding did not change, and did not work. My console said I had to error messages. Eventually, I looked through my code, realized the intendation error and fixed my website. 
+5. What is one thing on your page that you don't know how to change yet? 
+
+## Week 10, Friday
+1. I imagine it is supposed to prevent the default of an event from happening. So, it probably stops what the form deault is.
+2. You got "Cannot read properties of null" in class. In your own
+words, why did it happen, and why did if fix it?
+3. The rule that I wrote was a live character count, because I felt like it would mkae the most sense with the 'at least 10 characters' error message.
+4. I couldn't necessarily find things that were "broken" in my mobile app verion, so I instead updated two things a bit to make the mobile version easier to read. First, I slightly increased the padding on the submit button from 0.6 to 0.75, and secondly I increased the spacing between the labels from 0.25rem to 0.5rem. I thought these small changes helped make my mobile version look better!
+5. I would assume that we need some sort of backend system, or something to keep track of the responses. 
+
+## Week 11, Wednesday
+Live site: https://gracescaglione.netlify.app
