@@ -35,3 +35,9 @@ words, why did it happen, and why did if fix it?
 4. I couldn't necessarily find things that were "broken" in my mobile app verion, so I instead updated two things a bit to make the mobile version easier to read. First, I slightly increased the padding on the submit button from 0.6 to 0.75, and secondly I increased the spacing between the labels from 0.25rem to 0.5rem. I thought these small changes helped make my mobile version look better!
 5. I would assume that we need some sort of backend system, or something to keep track of the responses. 
 
+## Week 11, Wednesday
+Live site: https://gracescaglione.netlify.app
+1. Github stores and shares the code files that you upload to it. Netlify hosts the connected Github repository as a live website.
+2. Out live site will not change, because the production branch is release, not development. You would have to merge it with the release branch to see a change in your live site. 
+3. The padlock in the address bar means the connection between the site and server is encrypted. 
+4. Nope!
