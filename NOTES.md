@@ -37,3 +37,7 @@ words, why did it happen, and why did if fix it?
 
 ## Week 11, Wednesday
 Live site: https://gracescaglione.netlify.app
+1. Github stores and shares the code files that you upload to it. Netlify hosts the connected Github repository as a live website.
+2. Out live site will not change, because the production branch is release, not development. You would have to merge it with the release branch to see a change in your live site. 
+3. The padlock in the address bar means the connection between the site and server is encrypted. 
+4. Nope!
