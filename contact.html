@@ -24,7 +24,7 @@ contact.html
             <li><a href="contact.html" class="current">Contact</a></li>
             <li><button id="theme-toggle" type="button">Dark</button></li>
         </ul>
-     </nav>
+    </nav>
     <!-- Class 11 · Step 2: the page -->
     <header>
         <!-- Class 12: Step 3: an image -->
@@ -36,7 +36,13 @@ contact.html
     </header>
     <main>
         <!-- Class 16: Step 2: a form -->
-         <form id="contact-form">
+        <!-- Class 18: Step 1: let Netlify handle the submission -->
+        <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <p class="hidden-field">
+                <label>Leave this empty: <input name="bot-field" type="text"></label>
+            </p>
+            
+
             <p>
                 <label for="name">Your Name</label>
                 <input id="name" name="name" type="text" required>
@@ -52,9 +58,9 @@ contact.html
             <p>
                 <button type="submit">Send</button>
             </p>
-         </form>
+        </form>
 
-         <p id="form-status" role="status"></p>
+        <p id="form-status" role="status"></p>
         <!-- <div class="cards">
             <section class="card">
                 <h2>Contact Information</h2>
