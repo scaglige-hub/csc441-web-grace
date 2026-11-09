@@ -41,3 +41,11 @@ Live site: https://gracescaglione.netlify.app
 2. Out live site will not change, because the production branch is release, not development. You would have to merge it with the release branch to see a change in your live site. 
 3. The padlock in the address bar means the connection between the site and server is encrypted. 
 4. Nope!
+
+## Week 11, Friday
+1. The honeypot automatically captures bots by having a form only they can read. Because of this, my site does not need captcha or anything else, because it automatically captures the bots. 
+2. The Deploy Preview is best for seeing your development branch as a preview, and you would probably use it if you want to see what this branch would look like before it is merged to release.
+3. I fixed the spacing on some of my buttons, but nothing else was really broken for me to fix.
+4. I make changes to the local code on my laptop, and then push it to github. When I merge it with the release branch, netlify automatically builds and releases the website. 
+5. Both still work because they are both still hosted by netlify. 
+6. I would love to add more interactive elements!
