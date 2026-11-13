@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests - Grace Scaglione</title>
+    <!-- Class 12: Step 1: a typeface I chose -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Class 15: Step 1: my third file -->
+    <script src="script.js" defer></script>
+    <!-- Class 20: Step 2: API connection, then API page -->
+    <script src="interests.js" defer></script>
+    <script src="config.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="interests.html" class="current">Interests</a></li>
+            <!-- Class 15: Step 3: the theme button -->
+            <li><button id="theme-toggle" type="button">Dark</button></li>
+        </ul>
+    </nav>
+    <!-- Class 11 · Step 2: the page -->
+    <header>
+        <!-- Class 12: Step 3: an image -->
+        <img src="images/me.jpg" alt="Portrait of Grace Scaglione" class="portrait">
+        <div>
+            <h1>Grace Scaglione</h1>
+            <p>Computer science student at Le Moyne College.</p>
+        </div>
+    </header>
+    <main>
+        <!-- Class 20: Step 1: add inside the existing <main> on interests.html -->
+        <section class="interests-section">
+            <h2>My Interests</h2>
+            <p>
+                These items come from my Supabase database.
+            </p>
+            <p id="showcase-status" role="status">Waiting to load...</p>
+            <p id="showcase-count"></p>
+            <div id="shocase-grid" class="showcase-grid"></div>
+        </section>
+    </main>
+    <!-- Lab 12: Task 3: two things in the footer -->
+    <footer>
+        <!-- Lab 11: Task 3: a link off my page -->
+        <!-- Class 15: Step 2: the year, written by JavaScript -->
+        <p>© <span id="year"></span> Grace Scaglione</p>
+        <a href="https://github.com/scaglione-hub" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+</body>
+
+</html>
