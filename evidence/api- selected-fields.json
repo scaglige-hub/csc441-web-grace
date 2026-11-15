@@ -1,0 +1,25 @@
+{
+    "value": [
+        {
+            "title": "Mystery",
+            "category": "Genre"
+        },
+        {
+            "title": "Audiobooks",
+            "category": "Activity"
+        },
+        {
+            "title": "Thrillers",
+            "category": "Genre"
+        },
+        {
+            "title": "Book Clubs",
+            "category": "Activity"
+        },
+        {
+            "title": "Classics",
+            "category": "Genre"
+        }
+    ],
+    "Count": 5
+}
