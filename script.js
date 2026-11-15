@@ -77,6 +77,6 @@ if (contactForm) {
         characterCount.textContent = message.value.length;
     });
 
-    
+
 }
 
