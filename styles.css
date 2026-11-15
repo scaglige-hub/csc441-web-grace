@@ -238,3 +238,12 @@ form button {
 .hidden-field {
     display: none;
 }
+
+/* Lab 20 · Task 3: pictures and card spacing */
+.showcase-card { overflow: hidden; padding: 0; }
+.showcase-photo { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.showcase-body { padding: 1rem; }
+#showcase-refresh { font: inherit; padding: .5rem .9rem; border-radius: 6px;
+cursor: pointer; border: 1px solid var(--border, lightgray);
+color: var(--text, black); background: var(--background, white); }
+#showcase-refresh:focus-visible { outline: 2px solid var(--accent, royalblue); }

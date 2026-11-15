@@ -49,3 +49,10 @@ Live site: https://gracescaglione.netlify.app
 4. I make changes to the local code on my laptop, and then push it to github. When I merge it with the release branch, netlify automatically builds and releases the website. 
 5. Both still work because they are both still hosted by netlify. 
 6. I would love to add more interactive elements!
+
+## Week 12, Friday -- Lab 20
+1. fetch() gets the database information, and response.json() returns data that the website can use.
+2. textContent just reads information as text I think
+3. The page displays 'No items yet', and the item count stays at 0.
+4. The error would read 'Could not load the items. Check the Console'
+5. What is the proof that a card is NOT hardcoded in HTML?
